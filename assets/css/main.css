@@ -2095,7 +2095,7 @@
 			}
 
 		.image.avatar {
-			border-radius: 100%;
+			border-radius: 100%;/* was 100% - jw joe changed? - 4/1716 */
 		}
 
 			.image.avatar:before {
@@ -2104,7 +2104,7 @@
 
 			.image.avatar img {
 				border-radius: 1%;/* was 100%*/
-				width: 100%;
+				width: 200px;/* was 100%, which made it small for some reason - jw joe - 4/17/16*/
 			}
 
 /* List */
@@ -2287,6 +2287,7 @@
 
 		table td {
 			padding: 0.75em 0.75em;
+			vertical-align: middle;/* added by JW 4/17/16 */
 		}
 
 		table th {
